@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: mennotech/drupal-drush:drupal10.2.3-php8.3-apache-bookworm
